@@ -74,8 +74,6 @@ Add a disk image or file to the case and analyze the contents such as deleted fi
 
 ### **Recover Deleted Files**  
 - Go to **File Views** (left panel).  
-![Screenshot 2025-04-23 085807](https://github.com/user-attachments/assets/f1140537-013e-48cc-ac2b-71c464cd6046)
-
 
 
 - Click **Deleted Files** → Find your deleted images.  
