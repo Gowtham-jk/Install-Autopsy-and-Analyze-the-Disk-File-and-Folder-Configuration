@@ -1,7 +1,14 @@
-# Install-Autopsy-and-Analyze-the-Disk-File-and-Folder-Configuration
-## AIM:
-To install Autopsy on Kali Linux and analyze disk images, files, and folder configurations for digital forensic purposes.
+# EXP 3 : INSTALL AUTOPSY AND ANALYSIS THE DISK, FILE AND FOLDER CONFIGURATION
 
+## AIM:
+To install Autopsy software on windows operating system and analyse the file and folder configuration.
+
+## EQUIPMENT REQUIRED:
+● Hardware: Personal Computer (PC)
+```
+Register Number:212223100009
+Name: Gowtham V
+```
 ## DESIGN STEPS:
 ### Step 1:
 Install Autopsy using the terminal with the command:
@@ -12,11 +19,75 @@ Launch Autopsy from the terminal or application menu and create a new case.
 ### Step 3:
 Add a disk image or file to the case and analyze the contents such as deleted files, metadata, and folder structure.
 
-## PROGRAM:
-Autopsy Installation and Analysis Steps
+## INSTALLATION PROCEDURE:
+### Step1:Download Autopsy
+• Visit Autopsy Official Website and download the latest version.
 
-## OUTPUT:
-File and Folder Configuration Analysis Results
+• Double-click the downloaded file and follow the on-screen instructions.
+![Screenshot 2025-04-25 085320](https://github.com/user-attachments/assets/bae6c8c1-2d94-4639-84aa-cac512925854)
 
-## RESULT:
-Autopsy was installed successfully and used to analyze disk, file, and folder configuration for forensic investigation.
+
+## **Implementation steps:**
+
+### **1. Copy Files to the Virtual Disk**  
+- Open **File Explorer** → Go to the new drive (`D:`), where the folder created in the New Virtual Disk
+- Create a new folder or use the entire disk and then copy **images or files** into it.  
+
+### **2. Delete the Files**  
+- Select any one or two images → Press **Delete**.  
+- Empty the **Recycle Bin** to permanently delete them.  
+
+### **3. Recover Deleted Files Using Autopsy**  
+### **Open Autopsy & Create a New Case** 
+
+- Launch **Autopsy** and **Run as a administrator**  
+- Click **Create New Case**.  
+![Screenshot 2025-04-22 214658](https://github.com/user-attachments/assets/89ed73c4-ca95-4f21-b2f1-3a5ba2b67781)
+
+
+- Enter a **Case Name** (e.g., `Autopsy-1`).  
+- Choose a **Case Folder** location.  
+- Click **Next** → Click **Finish**.  
+
+
+![Screenshot 2025-04-22 215824](https://github.com/user-attachments/assets/6d60e194-4850-421e-9bf9-b2c758f49d81)
+
+### **Add the Virtual Disk as an Evidence Source**  
+- Click **Add Data Source**  → **Select Host**
+![Screenshot 2025-04-22 220051](https://github.com/user-attachments/assets/749bc8d2-22f8-464f-9824-ca774c859132)
+
+
+- Select **Local Disk** → **next** 
+
+![Screenshot 2025-04-22 220110](https://github.com/user-attachments/assets/e56a9fe1-1c83-4256-aea6-16004f93e63e)
+
+
+
+- Select Disk → **Choose the VHD drive (`New Volume(E:`)**
+
+![Screenshot 2025-04-25 085756](https://github.com/user-attachments/assets/8ece4b7b-8d76-4feb-b87c-83cf128ca89b)
+
+
+
+- Click **Next** → Keep default settings → Click **Finish**.  
+- Wait for Autopsy to process the disk.  
+
+### **Recover Deleted Files**  
+- Go to **File Views** (left panel).  
+![Screenshot 2025-04-23 085807](https://github.com/user-attachments/assets/f1140537-013e-48cc-ac2b-71c464cd6046)
+
+
+
+- Click **Deleted Files** → Find your deleted images.  
+- Right-click an image → Click **Extract File**.  
+
+![Screenshot 2025-04-23 134006](https://github.com/user-attachments/assets/bb9e03c6-3e37-4818-a612-d3113ca590b7)
+
+
+- Click OS Account
+
+![Screenshot 2025-04-25 090001](https://github.com/user-attachments/assets/809a4b18-877a-4b69-b2dd-d30c5e3151fe)
+
+
+## Result:
+Successfully extracted the deleted files from unallocated space using the Autospy tool.
